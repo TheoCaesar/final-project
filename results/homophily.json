@@ -1,0 +1,130 @@
+{
+  "n_nodes": 203769,
+  "n_edges": 234355,
+  "n_labelled_edges": 36624,
+  "labelled_edge_share": 0.15627573552943186,
+  "label_counts": {
+    "illicit": 4545,
+    "licit": 42019,
+    "unknown": 157205
+  },
+  "cross_timestep_edges": 0,
+  "edge_homophily": 0.9536915683704674,
+  "adjusted_homophily_undirected": 0.5162451549207302,
+  "edge_counts_src_to_dst [licit,illicit]": [
+    [
+      33930,
+      781
+    ],
+    [
+      915,
+      998
+    ]
+  ],
+  "P(dst class | src class)": [
+    [
+      0.977499927976722,
+      0.022500072023277924
+    ],
+    [
+      0.47830632514375326,
+      0.5216936748562467
+    ]
+  ],
+  "P(src class | dst class)": [
+    [
+      0.9737408523461042,
+      0.026259147653895823
+    ],
+    [
+      0.4390106801573918,
+      0.5609893198426082
+    ]
+  ],
+  "per_class": {
+    "licit": {
+      "n_nodes": 42019,
+      "mean_in_degree": 1.9093981294176443,
+      "mean_out_degree": 1.1858207001594516,
+      "share_no_in_edges": 0.33201646874033175,
+      "share_no_out_edges": 0.24524619814845666,
+      "coverage_in (>=1 labelled in-nbr)": 0.4778552559556391,
+      "coverage_out (>=1 labelled out-nbr)": 0.6037268854565792,
+      "h_in (mean over covered nodes)": 0.9929472564333206,
+      "h_out (mean over covered nodes)": 0.9792103142928467
+    },
+    "illicit": {
+      "n_nodes": 4545,
+      "mean_in_degree": 1.26996699669967,
+      "mean_out_degree": 0.7416941694169417,
+      "share_no_in_edges": 0.26512651265126513,
+      "share_no_out_edges": 0.3256325632563256,
+      "coverage_in (>=1 labelled in-nbr)": 0.2996699669966997,
+      "coverage_out (>=1 labelled out-nbr)": 0.39053905390539057,
+      "h_in (mean over covered nodes)": 0.6634238864415075,
+      "h_out (mean over covered nodes)": 0.5214084507042254
+    }
+  },
+  "flip_test_illicit": {
+    "observed_h_out_minus_h_in": -0.14201543573728215,
+    "null_mean": 0.000760570390750034,
+    "null_std": 0.013970768260767725,
+    "p_value_two_sided": 0.0,
+    "perms": 1000
+  },
+  "flip_test_licit": {
+    "observed_h_out_minus_h_in": -0.01373694214047394,
+    "null_mean": -2.126559546114659e-05,
+    "null_std": 0.0010812375762778927,
+    "p_value_two_sided": 0.0,
+    "perms": 1000
+  },
+  "per_class_steps_1_34": {
+    "licit": {
+      "n_nodes": 26432,
+      "mean_in_degree": 1.8251361985472154,
+      "mean_out_degree": 1.1464134382566586,
+      "share_no_in_edges": 0.3193477602905569,
+      "share_no_out_edges": 0.261955205811138,
+      "coverage_in (>=1 labelled in-nbr)": 0.5160411622276029,
+      "coverage_out (>=1 labelled out-nbr)": 0.5892100484261501,
+      "h_in (mean over covered nodes)": 0.9913074373339336,
+      "h_out (mean over covered nodes)": 0.9743509226814736
+    },
+    "illicit": {
+      "n_nodes": 3462,
+      "mean_in_degree": 1.2631426920854998,
+      "mean_out_degree": 0.766897746967071,
+      "share_no_in_edges": 0.25967648757943385,
+      "share_no_out_edges": 0.2954939341421144,
+      "coverage_in (>=1 labelled in-nbr)": 0.3217793183131138,
+      "coverage_out (>=1 labelled out-nbr)": 0.39948006932409014,
+      "h_in (mean over covered nodes)": 0.7042938360263314,
+      "h_out (mean over covered nodes)": 0.5683297180043384
+    }
+  },
+  "per_class_steps_35_49": {
+    "licit": {
+      "n_nodes": 15587,
+      "mean_in_degree": 2.0522871623789056,
+      "mean_out_degree": 1.2526464361326746,
+      "share_no_in_edges": 0.35349971129787644,
+      "share_no_out_edges": 0.21691152883813433,
+      "coverage_in (>=1 labelled in-nbr)": 0.4131006608070828,
+      "coverage_out (>=1 labelled out-nbr)": 0.6283441329312889,
+      "h_in (mean over covered nodes)": 0.9964209530501307,
+      "h_out (mean over covered nodes)": 0.98693751104142
+    },
+    "illicit": {
+      "n_nodes": 1083,
+      "mean_in_degree": 1.2917820867959373,
+      "mean_out_degree": 0.6611265004616805,
+      "share_no_in_edges": 0.28254847645429365,
+      "share_no_out_edges": 0.42197599261311175,
+      "coverage_in (>=1 labelled in-nbr)": 0.22899353647276086,
+      "coverage_out (>=1 labelled out-nbr)": 0.3619575253924284,
+      "h_in (mean over covered nodes)": 0.4798387096774194,
+      "h_out (mean over covered nodes)": 0.35586734693877553
+    }
+  }
+}

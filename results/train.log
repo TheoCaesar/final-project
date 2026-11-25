@@ -1,0 +1,60 @@
+LF RF                           s0 ep  0    7.1s PR-AUC 0.738 F1@val 0.729
+LF RF                           s1 ep  0    7.1s PR-AUC 0.748 F1@val 0.644
+LF RF                           s2 ep  0    6.8s PR-AUC 0.738 F1@val 0.754
+LF MLP                          s0 ep 49   26.7s PR-AUC 0.719 F1@val 0.731
+LF MLP                          s1 ep 62   31.7s PR-AUC 0.747 F1@val 0.773
+LF MLP                          s2 ep 59   29.6s PR-AUC 0.751 F1@val 0.760
+LF GCN                          s0 ep101   90.7s PR-AUC 0.662 F1@val 0.580
+LF GCN                          s1 ep180  157.2s PR-AUC 0.638 F1@val 0.542
+LF GCN                          s2 ep138  117.4s PR-AUC 0.666 F1@val 0.663
+LF GAT                          s0 ep120  135.3s PR-AUC 0.729 F1@val 0.738
+LF GAT                          s1 ep 93  105.1s PR-AUC 0.749 F1@val 0.749
+LF GAT                          s2 ep114  126.0s PR-AUC 0.758 F1@val 0.753
+LF SAGE                         s0 ep116   75.1s PR-AUC 0.740 F1@val 0.696
+LF SAGE                         s1 ep115   76.3s PR-AUC 0.697 F1@val 0.695
+LF SAGE                         s2 ep113   72.0s PR-AUC 0.732 F1@val 0.713
+LF DirGNN(a=0.5)                s0 ep131   94.8s PR-AUC 0.720 F1@val 0.695
+LF DirGNN(a=0.5)                s1 ep193  147.2s PR-AUC 0.708 F1@val 0.626
+LF DirGNN(a=0.5)                s2 ep 84   58.0s PR-AUC 0.722 F1@val 0.698
+LF Undir-Global                 s0 ep 99   80.2s PR-AUC 0.741 F1@val 0.714
+LF Undir-Global                 s1 ep131  102.2s PR-AUC 0.741 F1@val 0.716
+LF Undir-Global                 s2 ep105   85.6s PR-AUC 0.750 F1@val 0.718
+LF CAGNN-style (Undir-Node)     s0 ep 70   74.1s PR-AUC 0.743 F1@val 0.734
+LF CAGNN-style (Undir-Node)     s1 ep 97  101.8s PR-AUC 0.744 F1@val 0.750
+LF CAGNN-style (Undir-Node)     s2 ep 94   96.4s PR-AUC 0.760 F1@val 0.729
+LF Dir-Global                   s0 ep126  115.6s PR-AUC 0.715 F1@val 0.689
+LF Dir-Global                   s1 ep107  114.3s PR-AUC 0.753 F1@val 0.736
+LF Dir-Global                   s2 ep113  121.4s PR-AUC 0.715 F1@val 0.706
+LF NADir (Dir-Node, proposed)   s0 ep147  209.2s PR-AUC 0.753 F1@val 0.729
+LF NADir (Dir-Node, proposed)   s1 ep153  219.2s PR-AUC 0.689 F1@val 0.658
+LF NADir (Dir-Node, proposed)   s2 ep100  155.5s PR-AUC 0.772 F1@val 0.748
+AF RF                           s0 ep  0    8.7s PR-AUC 0.761 F1@val 0.442
+AF RF                           s1 ep  0    9.5s PR-AUC 0.767 F1@val 0.577
+AF RF                           s2 ep  0    9.0s PR-AUC 0.765 F1@val 0.421
+AF MLP                          s0 ep116   51.1s PR-AUC 0.507 F1@val 0.494
+AF MLP                          s1 ep 95   43.4s PR-AUC 0.483 F1@val 0.514
+AF MLP                          s2 ep112   50.0s PR-AUC 0.522 F1@val 0.517
+AF GCN                          s0 ep200  149.9s PR-AUC 0.439 F1@val 0.524
+AF GCN                          s1 ep178  140.2s PR-AUC 0.480 F1@val 0.563
+AF GCN                          s2 ep139  161.2s PR-AUC 0.334 F1@val 0.492
+AF GAT                          s0 ep134  261.3s PR-AUC 0.371 F1@val 0.420
+AF GAT                          s1 ep148  174.8s PR-AUC 0.502 F1@val 0.529
+AF GAT                          s2 ep113  129.9s PR-AUC 0.415 F1@val 0.515
+AF SAGE                         s0 ep 87   57.0s PR-AUC 0.467 F1@val 0.531
+AF SAGE                         s1 ep135   87.1s PR-AUC 0.408 F1@val 0.509
+AF SAGE                         s2 ep105   67.9s PR-AUC 0.418 F1@val 0.537
+AF DirGNN(a=0.5)                s0 ep148  112.5s PR-AUC 0.512 F1@val 0.515
+AF DirGNN(a=0.5)                s1 ep136  101.3s PR-AUC 0.528 F1@val 0.499
+AF DirGNN(a=0.5)                s2 ep111   82.3s PR-AUC 0.455 F1@val 0.501
+AF Undir-Global                 s0 ep160  124.6s PR-AUC 0.548 F1@val 0.536
+AF Undir-Global                 s1 ep113   90.5s PR-AUC 0.544 F1@val 0.551
+AF Undir-Global                 s2 ep136  113.1s PR-AUC 0.437 F1@val 0.559
+AF CAGNN-style (Undir-Node)     s0 ep 95  104.5s PR-AUC 0.288 F1@val 0.420
+AF CAGNN-style (Undir-Node)     s1 ep 53   58.3s PR-AUC 0.317 F1@val 0.523
+AF CAGNN-style (Undir-Node)     s2 ep 89   94.3s PR-AUC 0.328 F1@val 0.487
+AF Dir-Global                   s0 ep150  155.0s PR-AUC 0.412 F1@val 0.517
+AF Dir-Global                   s1 ep 79   82.4s PR-AUC 0.413 F1@val 0.492
+AF Dir-Global                   s2 ep 52   52.6s PR-AUC 0.479 F1@val 0.506
+AF NADir (Dir-Node, proposed)   s0 ep126  185.1s PR-AUC 0.351 F1@val 0.492
+AF NADir (Dir-Node, proposed)   s1 ep 66   95.5s PR-AUC 0.382 F1@val 0.500
+AF NADir (Dir-Node, proposed)   s2 ep118  178.6s PR-AUC 0.310 F1@val 0.448
